@@ -6,7 +6,7 @@ This project offers a simple script for extracting text from images and translat
 
 ### 1. Clone the project
 
-    git clone <repository-url>
+    git clone https://github.com/singhkailash9/image-processing.git
 
 
 ### 2. Install Dependencies:

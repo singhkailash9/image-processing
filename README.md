@@ -54,6 +54,11 @@ To process a new image, simply replace the image file in the `Data` directory an
 
 If you decide to translate to a different language in the future, remember to modify the translation language variables accordingly.
 
+### 8. Summarize the extracted/translated text
+After extracting and optionally translating text, you can further process the text to get a condensed summary. To do this, run the `summarize.py` script. Make sure to update the `FILE_NAME` constant within the script to match the name of the file you wish to summarize. If the file resides in a specific directory, adjust the `FILE` path accordingly.
+
+This step requires the summarization model, which will be automatically downloaded upon the first execution of `summarize.py`. Ensure you have an internet connection for this initial download. Subsequent executions will use the cached model, thus not requiring an internet connection. The summarized content will be saved in the same text directory as the extracted and translated data files.
+
 ## Additional Notes
 
 - This project is intended for educational purposes and serves as a basic introduction to image processing, text extraction, and language translation using Python.
